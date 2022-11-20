@@ -26,17 +26,17 @@ function GoalInput(props) {
                 <Image style={styles.image} source={require('../assets/images/goal.png')}/>
                 <TextInput 
                     style={styles.textInput} 
-                    placeholder="Ur Course goal"
+                    placeholder="What's your Course Goal?"
                     onChangeText={goalInputHandler}
                     value={enteredGoalText} 
                 />
                 <View style={styles.buttonContainer}>
                     <View style={styles.button}>
-                        <Button title="Cancel" onPress={props.onCancel} color="#f31282"/>
+                        <Button title="Batal" onPress={props.onCancel} color="#f31282"/>
                     </View>
                     <View style={styles.button}>
                         <Button 
-                            title="Add Goal"
+                            title="Tambah"
                             onPress={addGoalHandler}
                             color="#b180f0"
                         />

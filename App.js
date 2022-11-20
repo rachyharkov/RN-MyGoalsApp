@@ -44,7 +44,7 @@ export default function App() {
     <>
       <StatusBar style='light'/>
       <View style={styles.appContainer}>
-        <Button title='Add New Goal' color='#a065ce' onPress={startAddGoalHandler}/>
+        <Button title='Tambah Pencapaian mu!' color='#a065ce' onPress={startAddGoalHandler}/>
         <GoalInput
           visible={modalIsVisible} 
           onAddGoal={addGoalHandler}
